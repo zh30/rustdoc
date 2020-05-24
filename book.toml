@@ -1,6 +1,17 @@
 [book]
-authors = ["He Zhang"]
-language = "en"
+authors = ["Zhang He"]
+language = "zh-CN"
 multilingual = false
 src = "src"
-title = "Rus中文文档"
+title = "Rust 文档"
+description = "学习 Rust"
+
+[output.html]
+theme = "theme"
+mathjax-support = true
+preferred-dark-theme = "ayu"
+google-analytics = "UA-166861237-7"
+git-repository-url = "https://github.com/zhanghecool/rust"
+
+[output.html.playpen]
+editable = true
